@@ -61,13 +61,15 @@ const Home = () => {
                   href={el.link}
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
-                  <img alt="" src="{el.url}" />
+                  <img alt="" src={el.url} />
                   {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
+              
               ))}
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
+
               <a
         href="https://drive.google.com/file/d/1dbATZjGYI_zMG-MWNA2mNwxtER4ThzOP/view?usp=sharing" // Replace this URL with your resume URL
         target="_blank"
@@ -77,6 +79,7 @@ const Home = () => {
       >
         Resume
       </a>
+            
               </div>
             </div>
           </div>

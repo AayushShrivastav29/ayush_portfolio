@@ -6,6 +6,9 @@
 .pnp.js
 /jspm_packages
 
+# Ignore npm or yarn lock files
+package-lock.json
+yarn.lock
 # testing
 /coverage
 

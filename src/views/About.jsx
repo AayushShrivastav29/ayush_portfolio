@@ -30,14 +30,13 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              Hey there! I'm Ayush Shrivastav, a Software Engineer driven by a love for innovation and problem-solving. My background in Computer Engineering has provided me with a solid foundation to take on exciting challenges. I've honed my skills in Python, Django, React JS, and more, and I'm always eager to learn and grow.
+
+I've had the opportunity to work on some exciting projects. For instance, I created the "Interperson Distance Analyser," which uses deep learning and computer vision to monitor distances in real-time. Another project I'm proud of is the "Making User-Defined Fashion Designs through GAN," where I used Python and libraries like Pytorch and OpenCV to generate custom fashion garments.
+
+During a summer internship, I had the chance to dive into software development with a focus on improving faculty audit systems. It was a great experience working with Node.js, Express.js, and MySql to create responsive web pages.
+
+With a thirst for knowledge, I've earned certificates in networking and machine learning, and I'm always exploring new areas like cybersecurity, machine learning, and web development.
             </p>
           </motion.div>
           <motion.div
@@ -52,9 +51,7 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
-              websites for smartphones, tablets, and desktops.
+              Using a diverse set of technologies and tools, I've crafted impressive applications and projects. My skills encompass Python, Django, React JS, and other frameworks, allowing me to create robust and dynamic solutions. Additionally, I've gained proficiency in utilizing libraries like Pytorch and OpenCV for advanced computer vision tasks. During my internship, I worked with Node.js, Express.js, and MySql to develop responsive and efficient web pages.
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">

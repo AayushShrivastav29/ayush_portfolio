@@ -24,7 +24,8 @@ const Projects = () => {
         title="AgreeBlock: Providing a consensus-based transparent ecosystem for agricultural product supply chains"
         image="https://media.licdn.com/dms/image/C5112AQE6mr9_EgaYVQ/article-cover_image-shrink_600_2000/0/1579338959239?e=2147483647&v=beta&t=cEVs3KwS12g3tbykjGR6bwBH1uO3TG0jUWM4oxt53Bc"
         description="Created a revolutionized agricultural supply chains through cutting-edge blockchain technology. As a key contributor, I actively participated in the development of a decentralized application (dapp) on a private Ethereum network, utilizing Truffle and Solidity. Working closely with a talented group, we mastered smart contract implementation and harnessed HTML, CSS, JavaScript, Bootstrap, and React for the frontend. 'AgreeBlock' taught us the transformative power of transparency, trust, and fair compensation for farmers, promoting sustainable agriculture. Join our journey to create a better future for the industry! 🌱🚀."
-        link="hehttps://docs.google.com/document/d/1_ojlEWRvjjn3kW9GqpMSKnOst-tSQSn6/edit?usp=sharing&ouid=104381965431660848400&rtpof=true&sd=true"
+        
+        link="https://docs.google.com/document/d/1_ojlEWRvjjn3kW9GqpMSKnOst-tSQSn6/edit?usp=sharing&ouid=104381965431660848400&rtpof=true&sd=true"
         
       />
 

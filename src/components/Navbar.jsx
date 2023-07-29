@@ -18,7 +18,7 @@ const Navbar = () => {
       route: "about",
     },
     {
-      name: "Services",
+      name: "Work Experience",
       route: "services",
     },
     {

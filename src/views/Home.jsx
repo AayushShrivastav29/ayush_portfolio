@@ -4,7 +4,7 @@ import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
 
@@ -61,16 +61,22 @@ const Home = () => {
                   href={el.link}
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
-                  <img alt="" src={el.url} />
+                  <img alt="" src="{el.url}" />
                   {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
-                  Resume
-                </Link>
+              <a
+        href="https://drive.google.com/file/d/1dbATZjGYI_zMG-MWNA2mNwxtER4ThzOP/view?usp=sharing" // Replace this URL with your resume URL
+        target="_blank"
+        rel="noreferrer" // Add rel="noopener" to address the security concern
+        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+
+      >
+        Resume
+      </a>
               </div>
             </div>
           </div>

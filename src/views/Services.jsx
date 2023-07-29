@@ -23,11 +23,11 @@ const Services = () => {
               : "text-5xl font-bold px-4 md:px-0 text-center text-white"
           }
         >
-          Services
+          Work Experience
         </h2>
         <div className="">
           <h4 className="mt-16 text-3xl font-semibold text-blue-500">
-            What I Provide
+            What I Learned
           </h4>
           <div className="mt-8 flex md:flex-row justify-between flex-col md:items-stretch items-center ">
             {serviceData.map((el) => (

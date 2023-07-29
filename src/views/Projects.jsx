@@ -19,12 +19,28 @@ const Projects = () => {
           What I Built
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {/* First project card */}
+      <Card
+        title="AgreeBlock: Providing a consensus-based transparent ecosystem for agricultural product supply chains"
+        image="https://media.licdn.com/dms/image/C5112AQE6mr9_EgaYVQ/article-cover_image-shrink_600_2000/0/1579338959239?e=2147483647&v=beta&t=cEVs3KwS12g3tbykjGR6bwBH1uO3TG0jUWM4oxt53Bc"
+        description="Created a revolutionized agricultural supply chains through cutting-edge blockchain technology. As a key contributor, I actively participated in the development of a decentralized application (dapp) on a private Ethereum network, utilizing Truffle and Solidity. Working closely with a talented group, we mastered smart contract implementation and harnessed HTML, CSS, JavaScript, Bootstrap, and React for the frontend. 'AgreeBlock' taught us the transformative power of transparency, trust, and fair compensation for farmers, promoting sustainable agriculture. Join our journey to create a better future for the industry! 🌱🚀."
+        link="hehttps://docs.google.com/document/d/1_ojlEWRvjjn3kW9GqpMSKnOst-tSQSn6/edit?usp=sharing&ouid=104381965431660848400&rtpof=true&sd=true"
+        
+      />
+
+      {/* Second project card */}
+      <Card
+        title="
+      Interperson Distance Analyser"
+        image="https://serokell.io/files/yc/yctimg60.deviator-1_(1).jpg"
+        description="Created a distance monitoring application and categorized whether the people are within safe distance limits on live video input provided to the system. Used YOLOV3 for object recognition and centroid tracking methods for mutual distance analysis."
+        link="https://drive.google.com/drive/u/1/folders/10llyzaNy7Llu022-pw1q6Tdc2WuE2m-P"
+        
+      />
+
+          
         </div>
+        
         <a
           href="hello"
           class=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4"

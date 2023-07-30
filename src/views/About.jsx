@@ -1,14 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext,} from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
+import ProfilePicture from "../components/ProfilePicture"; 
 
 const About = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
+  
+
+  
+
+
   return (
-    <div id="about" className={darkMode === true ? "bg-white" : "bg-gray-900"}>
+    <div id="about"  className={darkMode === true ? "bg-white" : "bg-gray-900"}>
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
+     {/* Display the ProfilePicture component in place of the profile picture */}
+     <ProfilePicture />
+
         <h2
           className={
             darkMode
@@ -20,6 +30,7 @@ const About = () => {
         </h2>
         <div>
           <motion.div>
+          
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
               A bit about me
             </h4>

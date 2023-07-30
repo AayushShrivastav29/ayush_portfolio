@@ -52,8 +52,7 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Software Engineer. I am currently Student at
-              Ramrao Adik Institute Of Technology
+              I am a computer engineering graduate from Ramrao Adik Institute Of Technology, driven by a passion for software development and innovation.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (

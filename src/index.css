@@ -34,3 +34,16 @@ code {
   background-color: white;
   border-radius: 40px;
 }
+
+
+/* CSS for 3D advanced hover effect */
+.profile-picture {
+  transition: transform 0.3s ease-out;
+}
+
+.profile-picture:hover {
+  transform: rotateY(20deg) scale(1.2);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+

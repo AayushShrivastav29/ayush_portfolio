@@ -70,7 +70,7 @@ const Home = () => {
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
 
               <a
-        href="https://drive.google.com/file/d/1dbATZjGYI_zMG-MWNA2mNwxtER4ThzOP/view?usp=sharing" // Replace this URL with your resume URL
+        href="https://drive.google.com/file/d/1CPTWSaNjDX64AUhUJiWkVig8AX4lmdpd/view?usp=drivesdk" // Replace this URL with your resume URL
         target="_blank"
         rel="noreferrer" // Add rel="noopener" to address the security concern
         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
